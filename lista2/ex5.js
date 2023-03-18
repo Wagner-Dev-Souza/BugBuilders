@@ -212,21 +212,6 @@ const personagens = [
     },
 ];
 
-
-// function charPorTipo() {
-// const result = personagens.reduce((chars, currentWarrior) => {
-//    if (chars[currentWarrior.type] != undefined) {
-//       chars[currentWarrior.type].push(currentWarrior)
-//    } else {
-//       chars[currentWarrior.type] = [currentWarrior]
-//    }
-
-//    return chars;
-// }, {});
-// return result;
-// }
-// console.log(charPorTipo())
-
 /**
  * Exercício 5
  * ------------ 
@@ -254,8 +239,3 @@ const personagens = [
     return chars
  }
   console.log(charForType(personagens))
-
- //if (chars[currentWarrior.type] != undefined) {
-   //       chars[currentWarrior.type].push(currentWarrior)
-   //    } else {
-   //       chars[currentWarrior.type] = [currentWarrior]

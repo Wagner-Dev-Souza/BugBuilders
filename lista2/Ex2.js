@@ -234,4 +234,4 @@ const forType = (lista, tipo) => {
    });
    return nomes;
 };
-console.log(forType(personagens, 'ORC'))
+console.log(forType(personagens, 'warrior'))

@@ -3,33 +3,7 @@
  * ------------
  * 
  * Dado um array de pessoas:
- * [{
-        nome: "Jurupinga",
-        sobrenome: "Jackson",
-        idade: 80
-    },
-    {
-        nome: "Frederico",
-        sobrenome: "Mercury",
-        idade: 2
-    },
-    {
-        nome: "Brasil",
-        sobrenome: "Hilton",
-        idade: 5
-    },
-    {
-        nome: "Tiririca",
-        sobrenome: "Sangalo",
-        idade: 16
-    },
-    {
-        nome: "Bob",
-        sobrenome:"Ralley", 
-        idade: 100
-    }]
  */
-
 let pessoas = [{
     nome: "Jurupinga",
     sobrenome: "Jackson",

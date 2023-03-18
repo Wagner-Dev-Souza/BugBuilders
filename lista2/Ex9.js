@@ -92,21 +92,6 @@ const ingredientes = [
  *  }
  */
 
-// const IngredientsForType = (array) => {
-//     const Ingredients = {}; //key: value
-//     for (i = 0; i < array.length; i++) {
-//       let hasTrue = Object.keys(Ingredients).find((x) => x === "goods" && x === "rottens");
-
-//       if (hasTrue) {
-//         Ingredients[array[i].isRotten] === false ? Ingredients.goods.push(array[i].name) : Ingredients.rottens.push(array[i].name);
-//       } else {
-//         [array[i].isRotten] === false ? Object.assign(Ingredients, { "goods" : [array[i].name] }) : Object.assign(Ingredients, { "rottens" : [array[i].name] });
-//       }
-//     }
-//     return Ingredients
-//  }
-//   console.log(IngredientsForType(ingredientes))
-
 const ingredientsForType = (array) => {
     const ingredients = {"goods": [], "rottens": []};
     array.forEach(element => {
